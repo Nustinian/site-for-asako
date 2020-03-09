@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-color: #d4f8e8;
+    color: #f67575;
+}
+
+.jumbo-header {
+    background-color: #d4f8e8;
+}
+
+.hobby-container {
+    background-color: #d4f8e8;
+}
+
+.column-image {
+    margin-top: 30px;
+    background-color: #ffa34d;
+}
+
+.column-heading {
+    padding: 10px;
+}
+
+.column-button {
+    margin-top: 10px;
+}
+
+@media (min-width: 1200px) {
+    .column-image {
+        width: 80%;
+        margin-bottom: 2vh;
+    }
+}
+
+@media (max-width: 992px) {
+    .jumbo-header {
+        margin-top: 20vh;
+    }
+    
+    .hobby-container {
+        margin-top: 45vh;
+    }
+
+    .hobby-column {
+        margin-bottom: 20vh;
+    }
+}
